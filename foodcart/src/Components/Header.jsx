@@ -12,7 +12,7 @@ export const Header = ({cart}) => {
         </li>
         <li>
             <Link to ={"/Cart"}>
-            <span className="cart-count">{cart.length}&nbsp;&nbsp;Cart</span>
+            <span className="cart-count">{cart.length}&nbsp;&nbsp;<div>Cart</div></span>
             </Link>
         </li>
     </ul>
